@@ -11,3 +11,17 @@ parameters = {
 }
 
 holidays = calapi.holidays(parameters)
+
+
+def __init__(self, welcome_message()):
+    self.message = welcome_message
+    print "Welcome to your calendar :)"
+    print self.message
+        
+def welcome():
+    print "Welcome, " + USER_FIRST_NAME + "."
+    print "Calendar starting..."
+    sleep(1)
+    print "Today is: " + strftime("%A %B %d, %Y")
+    print "Current Time: " + strftime("%H: %M : %S")
+    print "What would you like to do?" 
