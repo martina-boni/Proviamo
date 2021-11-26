@@ -1,9 +1,10 @@
 
 pip install requests
+pip install python-dateutil
 
 import json
 import requests
-import argparse as parse
+from dateutil.parser import parse
 import pandas as pd
 import csv
 
